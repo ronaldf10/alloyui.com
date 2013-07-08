@@ -3,17 +3,17 @@ AUI().use(
 	function(A) {
 		var myButtons = [
 			{
+				text: 'Change title',
 				handler: function() {
 					this.set('title', 'New dialog title');
-				},
-				label: 'Change title'
+				}
 			},
 			{
+				text: 'Change body',
 				handler: function() {
 					this.set('bodyContent', 'New body content');
-				},
-				label: 'Change body'
-			}
+				}
+			},
 		];
 
 		new A.Dialog(
