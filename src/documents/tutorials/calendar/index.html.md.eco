@@ -17,7 +17,7 @@ First load the seed file if you haven't yet.
 Then initialize AlloyUI and load the Calendar module.
 
 ``` javascript
-AUI().ready(
+AUI().use(
   'calendar',
   function(A) {
     // code goes here
@@ -33,7 +33,7 @@ The Calendar component is a UI control that enables users to choose one or more 
 Create a new instance of Calendar and render it!
 
 ``` javascript
-AUI().ready(
+AUI().use(
   'aui-calendar',
   function(A) {
     new A.Calendar().render();
@@ -48,7 +48,7 @@ AUI().ready(
 Parameters can be passed into your instance of Calendar to change attibutes such as pre-selected dates, date format, establishing a first day of the week, and whether or not to show other months.
 
 ``` javascript
-AUI().ready(
+AUI().use(
   'aui-calendar',
   function(A) {
     new A.Calendar(
@@ -70,7 +70,7 @@ Further configuration includes declaring a range of available dates, selecting s
 </div>
 
 ``` javascript
-AUI().ready(
+AUI().use(
   'aui-calendar',
   function(A) {
     new A.Calendar(
@@ -101,7 +101,7 @@ The Calendar module can also be configured from HTML markup. The first step is t
 Then, simply create an instance of Calendar and specify the `boundingBox` and `srcNodes`.
 
 ``` javascript
-AUI().ready(
+AUI().use(
   'aui-calendar',
   function(A) {
     new A.Calendar(
