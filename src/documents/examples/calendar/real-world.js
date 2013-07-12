@@ -1,5 +1,5 @@
-AUI().ready(
-	'aui-calendar', 
+AUI().use(
+	'aui-calendar',
 	function(A) {
 		new A.Calendar(
 			{

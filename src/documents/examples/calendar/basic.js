@@ -1,4 +1,4 @@
-AUI().ready(
+AUI().use(
 	'aui-calendar',
 	function(A) {
 		new A.Calendar(
