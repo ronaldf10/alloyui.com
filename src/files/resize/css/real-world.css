@@ -1,0 +1,11 @@
+#parent {
+	border: 1px solid #ccc;
+	height: 250px;
+	position: relative;
+	width: 690px;
+}
+
+#resize {
+	height:250px;
+	width: 690px;
+}
