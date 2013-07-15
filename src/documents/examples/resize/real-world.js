@@ -1,7 +1,8 @@
 AUI().use(
   'aui-resize',
   function(A) {
-   var resize = new A.Resize({
+   var resize = new A.Resize(
+    {
       node: '#resize',
       proxy: true
     }
@@ -10,7 +11,7 @@ AUI().use(
     resize.plug(A.Plugin.ResizeConstrained, {
       constrain: '#parent',
       minHeight: 25,
-      minWidth: 69,
+      minWidth: 70,
       preserveRatio: true
       }
     ).render();

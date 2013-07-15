@@ -5,6 +5,7 @@ slug: 'resize'
 tags: 'resize'
 category: Resize
 description: Displays information in a resize window that can be dynamically defined and manipulated.
+index: true
 ---
 
 <link rel="stylesheet" href="<%= @getSiteUrl() %>/resize/css/basic.css" />
