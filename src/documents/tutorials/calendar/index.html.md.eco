@@ -8,10 +8,11 @@ description: Create a graphical calendar that enables readers to choose one or m
 
 #### Getting Started
 
-First load the seed file if you haven't yet.
+First load the seed files if you haven't yet.
 
 ``` html
 <script src="<%= @getCdnSeed() %>"></script>
+<link href="<%= @getCdnCss() %>" rel="stylesheet">
 ```
 
 Then initialize AlloyUI and load the Calendar module.
