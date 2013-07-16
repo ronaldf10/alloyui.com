@@ -20,7 +20,7 @@ Then initialize AlloyUI and load the Debounce module.
 ``` javascript
 AUI().use(
 	'aui-base',
-	'aui-debounce'
+	'aui-debounce',
 	function(A) {
 		// code goes here
 	}
